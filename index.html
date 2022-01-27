@@ -4,57 +4,117 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Template</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 1000px;
+            margin: 20px auto;
+
+        }
+
+        .header {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .header .logo {
+            width: 10%;
+            border: 1px solid red;
+            height: 50px;
+            float: left;
+            background-color: red;
+        }
+
+        .header .web-heading {
+            width: 90%;
+            border: 1px solid green;
+            height: 50px;
+            float: right;
+            background-color: green;
+        }
+
+        .navbar {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .navbar .menu {
+            width: 100%;
+            border: 1px solid yellow;
+            height: 20px;
+            float: left;
+            background-color: yellow;
+        }
+
+        .sections {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .sections>.section {
+            width: 33.3333333%;
+            border: 1px solid black;
+            height: 100px;
+            float: left;
+            background-color: blue;
+        }
+
+        .content {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .content .page-content {
+            width: 85%;
+            border: 1px solid cadetblue;
+            height: 815px;
+            float: left;
+            background-color: cadetblue;
+        }
+
+        .content .side-bar {
+            width: 15%;
+            border: 1px solid orangered;
+            height: 815px;
+            float: left;
+            background-color: orangered;
+        }
+
+        .footer {
+            border: 1px solid rgb(16, 98, 112);
+            text-align: center;
+            background-color: rgb(16, 98, 112);
+        }
+    </style>
 </head>
 
 <body>
-    <table WIDTH=”100%”>
-        <h3>Abdur Rahman</h3>
-        <td colspan=4 ALIGN=”right”><img src="./Image/73.jpg" alt="" border=3 height=100 width=100></img></td>
-        </tr>
-        <TF>
-            <TD ALIGN=”left”>Email: rahmanabdur64870@gmail.com</TD>
-            </Tr>
-            <TD ALIGN=”right”>Residence Oxford Mission Road, Barishal</TD>
-            </TR>
-            <TF>
-
-                <TD ALIGN=”right”>Phone (+88) 1781939288</TD>
-                </TR>
-                </TD>
-                </TR>
-                <TD ALIGN=”right”>facebook.com/ar.r.503</TD>
-                </TR>
-
-                <!-- <H2>Objective</H2> -->
-                <TABLE>
-                    <TR>
-                        <TD>&nbsp;</TD>
-                        <TD> </TD>
-                    </TR>
-                </TABLE>
-                <H2>Objective</H2>
-
-                <TABLE>
-                    <TR>
-                        <TD>&nbsp;</TD>
-                        <TD>Learning html and csss<BR>
-
-                        </TD>
-                    </TR>
-                </TABLE>
-                <H2>Education</H2>
-                <TABLE>
-                    <TR>
-                        <TD>&nbsp;</TD>
-                        <TD>Diploma in engineering
-                            <BR>Barishal Polytechnic Institute<BR>
-                            Batch: 18-19
-                        </TD>
-                    </TR>
-                </TABLE>
-
+    <div class="container">
+        <div class="header">
+            <div class="logo"></div>
+            <div class="web-heading"></div>
+        </div>
+        <div class="navbar">
+            <div class="menu"></div>
+        </div>
+        <div class="sections">
+            <div class="section" section-1=""></div>
+            <div class="section" section-2=""></div>
+            <div class="section" section-3=""></div>
+        </div>
+        <div class="content">
+            <div class="page-content"></div>
+            <div class="side-bar"></div>
+        </div>
+        <div class="footer">
+            <p>copyright notice</p>
+        </div>
+    </div>
 </body>
 
 </html>
